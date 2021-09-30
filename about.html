@@ -1,33 +1,27 @@
 <html>
+  <ul>
+    <li><a href= "index.html">Homepage</a></li>
+    <li><a href= "about.html">About us</a></li>
+    <li><a href= "browse.html">Browse Our Locations</a></li>
+    <li><a href= "booking.html">Book Your Vacation</a></li>
+    <li><a href= "reviews.html">Reviews</a></li>
+  </ul>
     <div class="about-section">
         <h1>About Us</h1>
-        <p>Some text about who we are and what we do.</p>
-        <p>Resize the browser window to see that this page is responsive by the way.</p>
+        <p>Meet the Vacation Location Team!</p>
+        <p>Mission Statement:<br>Turning the World's happiest moments into lasting memories, one vacation at a time.</p>
       </div>
       
       <h2 style="text-align:center">Our Team</h2>
       <div class="row">
         <div class="column">
           <div class="card">
-            <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+            <img src="meera.jpg" alt="Jane" style="width:100%">
             <div class="container">
-              <h2>Jane Doe</h2>
-              <p class="title">CEO & Founder</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>jane@example.com</p>
-              <p><button class="button">Contact</button></p>
-            </div>
-          </div>
-        </div>
-      
-        <div class="column">
-          <div class="card">
-            <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
-            <div class="container">
-              <h2>Mike Ross</h2>
+              <h2>Meera Singh</h2>
               <p class="title">Art Director</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>mike@example.com</p>
+              <p>Joined the organization at the beginning of its birth to add creative design.</p>
+              <p>meerasings@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
@@ -35,12 +29,25 @@
       
         <div class="column">
           <div class="card">
-            <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+            <img src="me.jpg" alt="Mike" style="width:100%">
             <div class="container">
-              <h2>John Doe</h2>
+              <h2>Amanuel Teshome</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Founded this company to make planning trips easier and more exciting.</p>
+              <p>teshomat@dukes.jmu.edu</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="Brinley.jpg" alt="Charles" style="width:100%">
+            <div class="container">
+              <h2>Charles Brinley</h2>
               <p class="title">Designer</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>john@example.com</p>
+              <p>Handles the layout and design of our system.</p>
+              <p>charbrinley@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
@@ -109,6 +116,29 @@ html {
 
 .button:hover {
   background-color: #555;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul li{
+    display: inline-flex;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: o.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
 }
 
 @media screen and (max-width: 650px) {
