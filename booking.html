@@ -1,0 +1,116 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Booking</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <form>
+                <fieldset>
+                    <table>
+                        <h1>Book Your Vacation Now!</h1>
+                        <tr>
+                            <th>Name</th>
+                            <td>:</td>
+                            <td><input type="text" name="name" id="name1" placeholder="Enter Your Name"></td>
+                        </tr>
+                        <tr>
+                            <th>Email address</th>
+                            <td>:</td>
+                            <td><input type="email" name="email" id="email1" placeholder="Enter Your Email address"></td>
+                        </tr>
+                        <tr>
+                            <th>Phone Number</th>
+                            <td>:</td>
+                            <td><input type="number" name="Number" id="number1" placeholder="Enter Your Moble number"></td>
+                        </tr>
+                        <tr>
+                            <th>Reason/Purpose of Vacation</th>
+                            <td>:</td>
+                            <td><input type="text" name="purpose" id="purpose" placeholder="Enter Your reason/purose of Vacation"></td>
+                        </tr>
+                        <tr>
+                            <th>From (Date)</th>
+                            <td>:</td>
+                            <td><input type="date" name="date" id="date1"></td>
+                        </tr>
+                        <tr>
+                            <th>To (Date)</th>
+                            <td>:</td>
+                            <td><input type="date" name="todate" id="todate1"></td>
+                        </tr>
+                        <tr>
+                            <th>Rate</th>
+                            <td>:</td>
+                            <td><input type="text" name="rate" id="rate1" placeholder="Enter Your Ideal Budget"></td>
+                        </tr>
+                    </table>
+                    <div style="margin-top: 40px">
+                        <tr>
+                            <td>
+                                <input type="submit" value="Book Now!" name="send" id="send1">
+                                <input type="submit" value="Update" name="update" id="update1">
+                            </td>
+                            <td>
+                                <input type="reset" value="Cancel" name="cancel" id="cancel1">
+                                <input type="submit" value="Delete" name="delete" id="delete">
+                            </td>
+                        </tr>
+                    </div>
+                </fieldset>
+            </form>
+        </center>
+    </header>
+</body>
+</html>
+
+<style>
+    h1{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: oblique;
+        font-size: 44p;
+        color: darkred;
+    }
+    header{
+        background-image: url(bookingback.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    input{
+        border-radius: 10px;
+        width: 250px;
+        height: 35px;
+        text-indent: 5px;
+    }
+    input:focus{
+        outline: none;
+    }
+    fieldset{
+        width: 35%;
+        height: 690px;
+        background-color:aquamarine;
+        border-radius: 5px;
+        outline: none;
+    }
+    table{
+        font-size: 22px;
+    }
+    td{
+        line-height: 50px;
+    }
+    input[type="submit"]:hover{
+        background-color:darkgreen;
+    }
+    input[type="reset"]:hover{
+        width: 120px;
+        height: 30px;
+        background-color:crimson;
+    }
+    input[type="reset"]:hover{
+        background-color:darkgreen;
+    }
+
+</style>
