@@ -1,4 +1,14 @@
 <html>
+    <nav>
+        <ul>
+            <li><a href= "index.html">Homepage</a></li>
+            <li><a href= "about.html">About us</a></li>
+            <li><a href= "browse.html">Browse Our Locations</a></li>
+            <li><a href= "booking.html">Book Your Vacation</a></li>
+            <li><a href= "reviews.html">Reviews</a></li>
+        </ul>
+    </nav>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -68,11 +78,38 @@
             <div>20</div>
         </div>
     </div>
+    <div class="review1">
+        <p>"I was very skeptical on how easy it could all be until I just went for it.<br>
+        I am so glad I booked!" - Brandon Quinn</p>
+    </div>
+    <div class="review2">
+        <p>"I love the choices they have available. Although it may be a small list,<br>
+        you know its quality and you don't have to spend so much time deciding." -Blake Jones</p>
+    </div>
+    <div class="review3">
+        <p>"The founder Amanuel Teshome is doing something great and has changed the way<br>
+        people are traveling. What a king!" - Jackson Burns</p>
+    </div>
 </html>
 
 <style>
     * { 
         box-sizing: border-box;
+    }
+    .review1{
+        text-align: center;
+        border-style: solid;
+        border-color:#287EC7
+    }
+    .review2{
+        text-align: center;
+        border-style: solid;
+        border-color:#287EC7
+    }
+    .review3{
+        text-align: center;
+        border-style: solid;
+        border-color:#287EC7
     }
 
     body {
@@ -80,6 +117,34 @@
         margin: 0 auto; /* Center website */
         max-width: 800px; /* Max width */
         padding: 20px;
+    }
+    nav{
+        background: #df8989;
+        width: 100%;
+        overflow: auto;
+    }
+
+    ul{
+        float: right; 
+        list-style-type: none;
+        margin-top: 30px;
+    }
+
+    ul li{
+        display: inline-flex;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid #fff;
+        transition: o.6s ease;
+    }
+
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
     }
 
     .heading {

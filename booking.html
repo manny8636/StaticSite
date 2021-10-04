@@ -2,7 +2,17 @@
 <head>
     <meta charset="utf-8">
     <title>Booking</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
 </head>
+<nav>
+    <ul>
+        <li><a href= "index.html">Homepage</a></li>
+        <li><a href= "about.html">About us</a></li>
+        <li><a href= "browse.html">Browse Our Locations</a></li>
+        <li><a href= "booking.html">Book Your Vacation</a></li>
+        <li><a href= "reviews.html">Reviews</a></li>
+    </ul>
+</nav>
 
 <body>
     <header>
@@ -79,6 +89,28 @@
         background-size: cover;
         background-position: center;
     }
+    nav{
+        background: #df8989;
+        width: 100%;
+        overflow: auto;
+    }
+    ul li{
+        display: inline-flex;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid #fff;
+        transition: o.6s ease;
+    }
+
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+
     input{
         border-radius: 10px;
         width: 250px;

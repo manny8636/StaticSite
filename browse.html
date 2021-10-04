@@ -1,1 +1,107 @@
- 
+<html>
+<head>
+<title>Browse our current locations!</title>
+<link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href= "index.html">Homepage</a></li>
+        <li><a href= "about.html">About us</a></li>
+        <li><a href= "browse.html">Browse Our Locations</a></li>
+        <li><a href= "booking.html">Book Your Vacation</a></li>
+        <li><a href= "reviews.html">Reviews</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div class ="gallery">
+        <img src="loc1.jpg">
+            <div class="descr">South Island, New Zealand</div>
+    </div>
+    <div class ="gallery">
+        <img src="loc2.jpg">
+            <div class="descr">Paris, France</div>
+    </div>
+    <div class ="gallery">
+        <img src="loc3.jpg">
+            <div class="descr">Bora Bora</div>
+    </div>
+    <div class ="gallery">
+        <img src="loc4.jpg">
+            <div class="descr">Maui</div>
+    </div>
+    <div class ="gallery">
+        <img src="loc5.jpg">
+            <div class="descr">London, England</div>
+    </div>
+    <div class ="gallery">
+        <img src="loc6.jpg">
+            <div class="descr">Tokyo, Japan</div>
+    </div>
+</div>
+</body>
+</html>
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 0;
+        background: burlywood;
+    }
+
+    nav{
+        background: #df8989;
+        width: 100%;
+        overflow: auto;
+    }
+
+    ul{
+        float: right; 
+        list-style-type: none;
+        margin-top: 30px;
+    }
+
+    ul li{
+        display: inline-flex;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid #fff;
+        transition: o.6s ease;
+    }
+
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        background: #f2f2f2;
+        overflow: auto;
+    }
+
+    .gallery{
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 390px;
+    }
+
+    .gallery img{
+        width: 420px;
+        height: 350px;
+    }
+
+    .descr{
+        padding: 15px;
+        text-align: center;
+    }
+</style>
